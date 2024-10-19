@@ -1,4 +1,4 @@
-// Array 
+
 const quotes = [
     { quote: "Code never lies, comments sometimes do." , author: " Ron Jeffries" },
     { quote: "The best way to learn to program is to write programs.", author: " Unknown" },
@@ -20,7 +20,6 @@ function displayQuote() {
     
     const currentQuote = quotes[currentIndex];
     
-    // DOM
     document.getElementById('quote').textContent = `"${currentQuote.quote}"`;
     document.getElementById('author').textContent = `— ${currentQuote.author}`;
 
